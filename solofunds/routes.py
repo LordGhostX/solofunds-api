@@ -1,6 +1,6 @@
 from flask import jsonify, request
 from solofunds import app, db
-from solofunds.models import User, VerificationBasicInfo, VerificationDocument
+from solofunds.models import User, VerificationBasicInfo, VerificationDocument, VerificationImage
 from solofunds.utils import *
 
 
