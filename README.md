@@ -4,9 +4,9 @@
 This repo contains a three levelled KYC API which work hand-in-hand to verify the identity of a user eliminating every form of identity theft.
 
 The verification process is divided into three parts:
-- SSN verification level: In this phase, the user submits their firstname, lastname, dob, SSN and their details are initially verified with the provided SSN.
+- SSN verification level: In this phase, the user submits their first name, last name, dob, SSN and their details are initially verified with the provided SSN.
 - Document verification level: In this phase, the user submits an identifying document (passport, ID card, or driver's license). Then using OCR technologies and machine learning, extract information from their document such as names, dob, and image.
-- Picture verification level: In this phase, the user submits an image of themself. Then using machine learning and face matching algorithms, we validate that the submitted image of themself match the same image extracted from their identity document.
+- Picture verification level: In this phase, the user submits an image of themselves. Then using machine learning and face matching algorithms, we validate that the submitted image of themselves match the same image extracted from their identity document.
 
 
 ## API Reference
@@ -51,7 +51,7 @@ POST /kyc/step-three/
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your `.env` file
 
 `DATABASE_URI`
 
